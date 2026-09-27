@@ -1,0 +1,24 @@
+generated: '2026-09-27'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 1
+  own: 1
+  other_domain: 0
+  platform: 0
+  roles:
+  - website
+hosts:
+- host: belhavenbio.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: belhavenbio.com
+  role: website
+  relation: own
