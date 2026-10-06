@@ -18,7 +18,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-27'
 
-modified: '2026-09-27'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -30,6 +30,10 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://belhavenbio.com/news/
+  type: Blog
+- url: https://belhavenbio.com/feed/
+  type: BlogRSS
 - type: Hosts
   url: hosts/belhavenbiopharma-hosts.yml
 - type: Vendors
